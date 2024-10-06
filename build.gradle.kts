@@ -29,6 +29,9 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.springframework.boot:spring-boot-starter-data-jdbc")
 	implementation("org.jetbrains:markdown:0.2.2")
+	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core")
+	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactive")
+	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
 	runtimeOnly("com.h2database:h2")
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test") {
